@@ -132,6 +132,76 @@ blockquote {
   }
 }
 
+// AI CRM Project Custom Styles
+.ai-crm-flow {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  
+  pre {
+    background: transparent;
+    color: white;
+    border: none;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
+
+.ai-approaches {
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem 0;
+  
+  pre {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    overflow-x: auto;
+  }
+  
+  strong {
+    color: var(--global-theme-color);
+    font-weight: 600;
+  }
+}
+
+.ai-conversation {
+  background: #f8f9fa;
+  border-left: 4px solid var(--global-theme-color);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  
+  pre {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    overflow-x: auto;
+  }
+  
+  strong {
+    color: var(--global-theme-color);
+    font-weight: 600;
+  }
+}
+
 // Checklist
 
 ul.task-list {
