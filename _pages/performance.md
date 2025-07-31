@@ -354,15 +354,9 @@ nav_order: 2
         </div>
         
         <div class="section">
-            <h2 class="section-title">6-year quota performance</h2>
+            <h2 class="section-title">5-year quota performance</h2>
             <div class="quota-performance">
-                <div class="performance-item">
-                    <span class="year">2024</span>
-                    <div class="progress-track">
-                        <div class="progress-fill over-quota" style="width: 100%; --overflow: 15;"></div>
-                    </div>
-                    <span class="percentage">115% // YTD // $150K</span>
-                </div>
+
                 <div class="performance-item">
                     <span class="year">2023</span>
                     <div class="progress-track">
