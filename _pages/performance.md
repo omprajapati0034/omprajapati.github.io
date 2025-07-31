@@ -359,9 +359,9 @@ nav_order: 2
                 <div class="performance-item">
                     <span class="year">2024</span>
                     <div class="progress-track">
-                        <div class="progress-fill over-quota" style="width: 100%; --overflow: 42;"></div>
+                        <div class="progress-fill over-quota" style="width: 100%; --overflow: 15;"></div>
                     </div>
-                    <span class="percentage">142% // YTD // $2.4M</span>
+                    <span class="percentage">115% // YTD // $150K</span>
                 </div>
                 <div class="performance-item">
                     <span class="year">2023</span>
@@ -476,73 +476,6 @@ nav_order: 2
             <div class="achievement">
                 <div class="achievement-title">Forecast Accuracy</div>
                 <div class="achievement-desc">Achieved and maintained 90% forecast accuracy, ensuring reliable revenue projections and planning for the organization.</div>
-            </div>
-        </div>
-        
-        <!-- Performance Charts -->
-        <div class="section">
-            <h2 class="section-title">Performance Visualizations</h2>
-            
-            <div class="charts-grid">
-                <div class="chart-container">
-                    <h4>Pipeline Sources</h4>
-                    <div class="chart">
-                        <div class="chart-bar" style="width: 65%; background: linear-gradient(90deg, #10b981, #059669);">
-                            <span class="chart-label">Self-Sourced (65%)</span>
-                        </div>
-                        <div class="chart-bar" style="width: 25%; background: linear-gradient(90deg, #3b82f6, #1d4ed8);">
-                            <span class="chart-label">Alliance Partners (25%)</span>
-                        </div>
-                        <div class="chart-bar" style="width: 10%; background: linear-gradient(90deg, #f59e0b, #d97706);">
-                            <span class="chart-label">Marketing (10%)</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="chart-container">
-                    <h4>Sales Cycle Duration</h4>
-                    <div class="chart">
-                        <div class="chart-bar" style="width: 40%; background: linear-gradient(90deg, #10b981, #059669);">
-                            <span class="chart-label">2-3 months (40%)</span>
-                        </div>
-                        <div class="chart-bar" style="width: 35%; background: linear-gradient(90deg, #3b82f6, #1d4ed8);">
-                            <span class="chart-label">3-4 months (35%)</span>
-                        </div>
-                        <div class="chart-bar" style="width: 25%; background: linear-gradient(90deg, #f59e0b, #d97706);">
-                            <span class="chart-label">4-6 months (25%)</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="chart-container">
-                    <h4>Stakeholder Engagement</h4>
-                    <div class="chart">
-                        <div class="chart-bar" style="width: 30%; background: linear-gradient(90deg, #10b981, #059669);">
-                            <span class="chart-label">4 stakeholders (30%)</span>
-                        </div>
-                        <div class="chart-bar" style="width: 45%; background: linear-gradient(90deg, #3b82f6, #1d4ed8);">
-                            <span class="chart-label">5-6 stakeholders (45%)</span>
-                        </div>
-                        <div class="chart-bar" style="width: 25%; background: linear-gradient(90deg, #f59e0b, #d97706);">
-                            <span class="chart-label">7+ stakeholders (25%)</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="chart-container">
-                    <h4>Quarterly Performance</h4>
-                    <div class="chart">
-                        <div class="chart-bar" style="width: 100%; background: linear-gradient(90deg, #10b981, #059669);">
-                            <span class="chart-label">Q1: 4+ opps (Target Met)</span>
-                        </div>
-                        <div class="chart-bar" style="width: 100%; background: linear-gradient(90deg, #3b82f6, #1d4ed8);">
-                            <span class="chart-label">Q2: 4+ opps (Target Met)</span>
-                        </div>
-                        <div class="chart-bar" style="width: 100%; background: linear-gradient(90deg, #f59e0b, #d97706);">
-                            <span class="chart-label">Q3: 4+ opps (Target Met)</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
