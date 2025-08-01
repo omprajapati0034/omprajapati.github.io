@@ -23,3 +23,49 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Mobile optimizations
+@media (max-width: 768px) {
+  // Improve navigation
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+  }
+  
+  // Better spacing for mobile
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  // Improve readability
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  // Better button sizing
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  // Improve table responsiveness
+  .table-responsive {
+    border: none;
+  }
+  
+  // Better card spacing
+  .card {
+    margin-bottom: 1.5rem;
+  }
+  
+  // Improve form elements
+  input, textarea, select {
+    font-size: 16px; // Prevents zoom on iOS
+  }
+}

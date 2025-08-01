@@ -8,7 +8,7 @@ nav_order: 3
 
 <div class="cv-header">
   <div class="cv-download">
-    <a href="/assets/pdf/om_prajapati_cv.pdf" download class="download-btn">
+    <a href="assets/pdf/Om Prajapati Resume 2025.pdf" download="Om Prajapati Resume 2025.pdf" class="download-btn" id="cv-download-btn">
       <i class="fas fa-download"></i> Download PDF
     </a>
   </div>
@@ -238,6 +238,98 @@ nav_order: 3
   
   .cv-header {
     justify-content: center;
+  }
+}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const downloadBtn = document.getElementById('cv-download-btn');
+  if (downloadBtn) {
+    downloadBtn.addEventListener('click', function(e) {
+      e.preventDefault(); // Always prevent default to handle manually
+      
+      // Check if we're on localhost
+      const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+      
+      if (isLocalhost) {
+        // On localhost, open in new tab since download attribute may not work
+        console.log('Opening PDF in new tab (localhost detected)');
+        window.open(downloadBtn.href, '_blank');
+      } else {
+        // On production, try the download attribute first
+        try {
+          const link = document.createElement('a');
+          link.href = downloadBtn.href;
+          link.download = 'Om Prajapati Resume 2025.pdf';
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        } catch (error) {
+          console.log('Download failed, opening in new tab:', error);
+          window.open(downloadBtn.href, '_blank');
+        }
+      }
+    });
+  }
+});
+</script>
+
+<style>
+/* Mobile optimization for CV page */
+@media (max-width: 768px) {
+  .cv-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .cv-download {
+    margin-top: 1rem;
+  }
+  
+  .download-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .cv-content {
+    padding: 1rem;
+  }
+  
+  .cv-content h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cv-content h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .cv-content p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .cv-content ul {
+    font-size: 0.95rem;
+  }
+  
+  .cv-content li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Tablet optimization */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .download-btn {
+    padding: 0.875rem 1.75rem;
+    font-size: 1.1rem;
   }
 }
 </style>
