@@ -314,6 +314,115 @@ nav_order: 2
     .nav-tab {
         flex-shrink: 0;
     }
+    
+    /* Mobile progress bar fixes */
+    .performance-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .year {
+        min-width: auto;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .progress-track {
+        width: 100%;
+        margin: 0;
+        height: 12px;
+    }
+    
+    .percentage {
+        min-width: auto;
+        text-align: left;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    
+    .company-metrics {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+    
+    .company-metric {
+        padding: 0.75rem;
+    }
+    
+    .company-metric-value {
+        font-size: 1.25rem;
+    }
+    
+    .company-metric-label {
+        font-size: 0.75rem;
+    }
+    
+    .company-section {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .company-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .company-logo {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .performance-item {
+        margin-bottom: 2rem;
+    }
+    
+    .progress-track {
+        height: 16px;
+    }
+    
+    .percentage {
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+    
+    .company-metrics {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    
+    .company-metric {
+        padding: 1rem;
+    }
+    
+    .company-metric-value {
+        font-size: 1.5rem;
+    }
+    
+    .nav-tab {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.1rem;
+    }
+    
+    .achievement {
+        padding: 1rem;
+    }
+    
+    .achievement-title {
+        font-size: 0.9rem;
+    }
+    
+    .achievement-desc {
+        font-size: 0.8rem;
+    }
 }
 </style>
 
