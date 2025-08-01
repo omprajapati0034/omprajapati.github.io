@@ -246,28 +246,18 @@ document.addEventListener('DOMContentLoaded', function() {
   const downloadBtn = document.getElementById('cv-download-btn');
   if (downloadBtn) {
     downloadBtn.addEventListener('click', function(e) {
-      e.preventDefault(); // Always prevent default to handle manually
-      
       // Check if we're on localhost
       const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
       
       if (isLocalhost) {
-        // On localhost, open in new tab since download attribute may not work
+        // On localhost, prevent default and open in new tab
+        e.preventDefault();
         console.log('Opening PDF in new tab (localhost detected)');
         window.open(downloadBtn.href, '_blank');
       } else {
-        // On production, try the download attribute first
-        try {
-          const link = document.createElement('a');
-          link.href = downloadBtn.href;
-          link.download = 'Om Prajapati Resume 2025.pdf';
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-        } catch (error) {
-          console.log('Download failed, opening in new tab:', error);
-          window.open(downloadBtn.href, '_blank');
-        }
+        // On production, let the download attribute work naturally
+        // The download attribute should trigger the download automatically
+        console.log('Initiating download...');
       }
     });
   }
