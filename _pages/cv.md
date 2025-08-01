@@ -8,7 +8,7 @@ nav_order: 3
 
 <div class="cv-header">
   <div class="cv-download">
-    <a href="assets/pdf/Om Prajapati Resume 2025.pdf" download="Om Prajapati Resume 2025.pdf" class="download-btn" id="cv-download-btn">
+    <a href="assets/pdf/Om-Prajapati-Resume-2025.pdf" download="Om-Prajapati-Resume-2025.pdf" class="download-btn" id="cv-download-btn">
       <i class="fas fa-download"></i> Download PDF
     </a>
   </div>
