@@ -622,6 +622,97 @@
     .nav-tab {
         flex-shrink: 0;
     }
+    
+    /* Mobile progress bar fixes */
+    .performance-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background: var(--global-card-bg-color);
+        border: 1px solid var(--global-divider-color);
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+    
+    .performance-item:hover {
+        border-color: var(--global-theme-color);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transform: translateY(-1px);
+    }
+    
+    .year {
+        min-width: auto;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--global-theme-color);
+        margin-bottom: 0.25rem;
+    }
+    
+    .progress-track {
+        width: 100%;
+        margin: 0;
+        height: 20px;
+        border-radius: 10px;
+        background: var(--global-divider-color);
+        position: relative;
+        overflow: visible;
+    }
+    
+    .progress-fill {
+        border-radius: 10px;
+        height: 20px;
+    }
+    
+    .progress-fill.over-quota::after {
+        height: 24px;
+        top: -2px;
+        border-radius: 12px;
+    }
+    
+    .percentage {
+        min-width: auto;
+        text-align: left;
+        font-size: 1rem;
+        width: 100%;
+        font-weight: 500;
+        color: var(--global-text-color);
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 480px) {
+    .performance-item {
+        margin-bottom: 2rem;
+        padding: 1.25rem;
+    }
+    
+    .progress-track {
+        height: 24px;
+        border-radius: 12px;
+    }
+    
+    .progress-fill {
+        border-radius: 12px;
+        height: 24px;
+    }
+    
+    .progress-fill.over-quota::after {
+        height: 28px;
+        top: -2px;
+        border-radius: 14px;
+    }
+    
+    .percentage {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-top: 0.5rem;
+    }
+    
+    .year {
+        font-size: 1.2rem;
+    }
 }
 </style>
 

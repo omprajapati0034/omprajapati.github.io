@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      Turning CRM Notes into Sales Intelligence | Om Prajapati
+    
+  
+</title>
+<meta name="author" content="Om Prajapati">
+<meta name="description" content="A practical approach to transforming unstructured CRM data into actionable sales intelligence through AI-powered pattern recognition and segment-specific strategies.">
+
+  <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://omprajapati.com/projects/ai_crm_pipeline/">
+
+
+  <!-- Dark Mode -->
+  <script src="/assets/js/theme.js?92e92d08b2d48c5b9a8d1f8828f6a510"></script>
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Om</span>
+            
+            
+            Prajapati
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Projects -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/projects/">
+              projects
+              
+                <span class="sr-only">(current)</span>
+              
+            </a>
+          </li>
+          
+          <!-- CV -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/cv/">
+              cv
+              
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Turning CRM Notes into Sales Intelligence</h1>
+    <p class="post-description">How to use AI to find patterns in CRM data and personalize your sales strategy at scale</p>
+  </header>
+
+  <article class="article-content">
+    <div class="article-section">
+      <h2 id="what-this-is-about" class="section-title">What This Is About</h2>
+      <p class="lead-paragraph">Sales CRMs are full of valuable info—notes from SDRs, call logs, lost deals—but most of it is unstructured and hard to use. This approach shows how to use AI to group accounts by common pain points, build focused sales strategies for each group, and improve outreach quality across your team.</p>
+    </div>
+
+    <div class="article-section">
+      <h2 id="the-problem-crm-data-is-messy-and-hard-to-use" class="section-title">The Problem: CRM Data Is Messy and Hard to Use</h2>
+      <p>Your CRM is packed with free-text notes like:</p>
+      <div class="highlight-box">
+        <ul class="problem-list">
+          <li>"Budget stuck with procurement"</li>
+          <li>"Using 14 Bill.com accounts for different entities"</li>
+          <li>"Invoices keep going to the wrong place"</li>
+        </ul>
+      </div>
+      <p>Individually, these seem like random comments. But across hundreds or thousands of accounts, patterns start to show up.</p>
+      <p>The issue? Humans can't read through all this and make sense of it at scale. So:</p>
+      <ul class="problem-outcomes">
+        <li>Reps miss key buying signals</li>
+        <li>Teams qualify accounts differently</li>
+        <li>Outreach is generic</li>
+        <li>Hard-earned knowledge doesn't get shared</li>
+      </ul>
+    </div>
+
+    <div class="article-section">
+      <h2 id="why-one-size-fits-all-ai-doesnt-work" class="section-title">Why One-Size-Fits-All AI Doesn't Work</h2>
+      <p>Most sales orgs try to use one general AI assistant for everything—tech, manufacturing, finance, etc.</p>
+      <p>The result? The AI lacks deep context. It gives you surface-level answers and misses the nuances that matter for each segment.</p>
+    </div>
+
+    <div class="article-section">
+      <h2 id="a-better-way-specialized-ai-conversations-by-segment" class="section-title">A Better Way: Specialized AI Conversations by Segment</h2>
+      <p>Instead of one AI for everyone, this method creates dedicated AI chat threads for each micro-segment.</p>
+      <p>Think of it like building mini-experts inside your AI system—each focused on a specific type of customer.</p>
+    </div>
+
+    <div class="article-section">
+      <h2 id="step-by-step-how-this-works" class="section-title">Step-by-Step: How This Works</h2>
+      
+      <div class="step-section">
+        <h3 id="1-export-crm-data" class="step-title">1. Export CRM Data</h3>
+        <p>Pull everything—SDR notes, call logs, win/loss notes, tech requirements, etc. Don't worry about making it clean. AI is good at finding patterns in messy data.</p>
+      </div>
+
+      <div class="step-section">
+        <h3 id="2-run-pattern-analysis-with-ai" class="step-title">2. Run Pattern Analysis with AI</h3>
+        <p>Prompt your AI to look for common themes and group accounts.</p>
+        <div class="example-box">
+          <p><strong>Example from Tipalti:</strong></p>
+          <p>We found 47 accounts that were all manufacturing companies using Bill.com. Controllers kept saying things like "14 different Bill.com logins" and "invoices keep getting sent to the wrong entity."</p>
+          <p>That's a clear pattern—fragmented finance processes in multi-entity orgs.</p>
+        </div>
+      </div>
+
+      <div class="step-section">
+        <h3 id="3-create-dedicated-conversations-per-segment" class="step-title">3. Create Dedicated Conversations per Segment</h3>
+        <p>For each group of similar accounts, start a focused conversation thread with the AI. Load it with:</p>
+        <ul class="context-list">
+          <li>Sales performance data (win rates, deal size, etc.)</li>
+          <li>Notes from similar deals</li>
+          <li>Typical objections, tech requirements, and buying steps</li>
+          <li>Industry terms and pain points</li>
+        </ul>
+        <p>This gives your AI deep context so it knows how to talk like an expert in that space.</p>
+      </div>
+
+      <div class="step-section">
+        <h3 id="4-use-the-thread-to-generate-outreach-and-strategy" class="step-title">4. Use the Thread to Generate Outreach and Strategy</h3>
+        <p>When you come across a new account in that segment, you now have:</p>
+        <ul class="benefits-list">
+          <li>A trained AI thread to consult</li>
+          <li>Smart, relevant messaging</li>
+          <li>Discovery questions that actually land</li>
+        </ul>
+        <div class="example-box">
+          <p><strong>Example Outreach Line:</strong></p>
+          <blockquote class="outreach-quote">
+            "I noticed you're managing 15 separate Bill.com instances. Most controllers I talk to say their biggest issue is when invoices go to the wrong entity or they have to log into a dozen systems to see cash positions…"
+          </blockquote>
+          <p>This type of messaging saw improved reply rates—because it was dialed into the real problem.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="article-section">
+      <h2 id="why-this-works" class="section-title">Why This Works</h2>
+      <p>Instead of shallow, generic outreach, your team delivers:</p>
+      <ul class="benefits-list">
+        <li>Messaging that resonates</li>
+        <li>Questions that uncover real issues</li>
+        <li>Conversations that feel custom, not templated</li>
+      </ul>
+      <p>And because each thread improves over time (based on what worked or didn't), your system gets smarter the more you use it.</p>
+    </div>
+
+    <div class="article-section">
+      <h2 id="personal-experience-cold-calling-with-ai-context" class="section-title">Personal Experience: Cold Calling with AI Context</h2>
+      <p>Here's where it clicked for me.</p>
+      <div class="experience-box">
+        <p>When I was cold calling a controller at one of these manufacturing companies, I opened the segment-specific chat beforehand. It gave me a few pointed questions about how they manage cash flow and invoices across multiple entities. I used those live in the call, and it completely changed the tone. We got into the real pain fast—way faster than if I had gone in cold or with generic questions.</p>
+        <p>The specific chat log gave me questions to dig into pain that was relevant to their situation. Instead of asking generic discovery questions, I could ask about their specific challenges with multi-entity Bill.com management.</p>
+      </div>
+    </div>
+
+    <div class="article-section">
+      <h2 id="how-to-get-started" class="section-title">How to Get Started</h2>
+      
+      <div class="phase-grid">
+        <div class="phase-card">
+          <h3 id="phase-1-set-it-up" class="phase-title">Phase 1: Set It Up</h3>
+          <ul class="phase-list">
+            <li>✅ Export full CRM data</li>
+            <li>✅ Segment accounts with AI</li>
+            <li>✅ Review segments with sales leaders</li>
+          </ul>
+        </div>
+
+        <div class="phase-card">
+          <h3 id="phase-2-build-it" class="phase-title">Phase 2: Build It</h3>
+          <ul class="phase-list">
+            <li>✅ Create specialist chat threads</li>
+            <li>✅ Add real-world context to each one</li>
+            <li>✅ Train reps to use the threads</li>
+          </ul>
+        </div>
+
+        <div class="phase-card">
+          <h3 id="phase-3-optimize-it" class="phase-title">Phase 3: Optimize It</h3>
+          <ul class="phase-list">
+            <li>✅ Track what works</li>
+            <li>✅ Add new segments as needed</li>
+            <li>✅ Update threads with new insights</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="article-section">
+      <h2 id="key-takeaway" class="section-title">Key Takeaway</h2>
+      <div class="takeaway-box">
+        <p>Don't expect one AI to master every account. Just like you wouldn't assign one rep to sell into every vertical, your AI should be specialized.</p>
+        <p>Segment your data. Create focused threads. Let your AI become an expert—one segment at a time.</p>
+        <p>The key is not treating AI like a one-size-fits-all assistant. Treat it like a specialist for each segment—just like your best reps are.</p>
+      </div>
+    </div>
+  </article>
+
+  <style>
+    /* Article Content Styling */
+    .article-content {
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.7;
+      color: var(--global-text-color);
+    }
+
+    .article-section {
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    .article-section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      color: var(--global-text-color);
+      border-left: 4px solid var(--global-theme-color);
+      padding-left: 1rem;
+    }
+
+    .lead-paragraph {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--global-text-color-light);
+      margin-bottom: 2rem;
+    }
+
+    .step-section {
+      margin-bottom: 2.5rem;
+      padding: 1.5rem;
+      background: var(--global-bg-color);
+      border-radius: 8px;
+      border: 1px solid var(--global-divider-color);
+    }
+
+    .step-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--global-theme-color);
+    }
+
+    .highlight-box {
+      background: linear-gradient(135deg, rgba(var(--global-theme-color-rgb), 0.05), rgba(var(--global-theme-color-rgb), 0.1));
+      border: 1px solid rgba(var(--global-theme-color-rgb), 0.2);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .problem-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .problem-list li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(var(--global-theme-color-rgb), 0.1);
+      font-weight: 500;
+    }
+
+    .problem-list li:last-child {
+      border-bottom: none;
+    }
+
+    .problem-outcomes {
+      background: rgba(220, 53, 69, 0.05);
+      border-left: 4px solid #dc3545;
+      padding: 1rem 1.5rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+    }
+
+    .context-list, .benefits-list {
+      background: rgba(40, 167, 69, 0.05);
+      border-left: 4px solid #28a745;
+      padding: 1rem 1.5rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+    }
+
+    .example-box {
+      background: rgba(255, 193, 7, 0.05);
+      border: 1px solid rgba(255, 193, 7, 0.3);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .outreach-quote {
+      background: var(--global-bg-color);
+      border-left: 4px solid var(--global-theme-color);
+      padding: 1rem 1.5rem;
+      margin: 1rem 0;
+      font-style: italic;
+      border-radius: 0 8px 8px 0;
+      font-size: 1rem;
+    }
+
+    .experience-box {
+      background: rgba(13, 110, 253, 0.05);
+      border: 1px solid rgba(13, 110, 253, 0.2);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .phase-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .phase-card {
+      background: var(--global-bg-color);
+      border: 1px solid var(--global-divider-color);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .phase-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .phase-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--global-theme-color);
+    }
+
+    .phase-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .phase-list li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    .phase-list li:last-child {
+      border-bottom: none;
+    }
+
+    .takeaway-box {
+      background: linear-gradient(135deg, rgba(var(--global-theme-color-rgb), 0.1), rgba(var(--global-theme-color-rgb), 0.05));
+      border: 2px solid var(--global-theme-color);
+      border-radius: 12px;
+      padding: 2rem;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+      .article-content {
+        padding: 0 1rem;
+      }
+
+      .section-title {
+        font-size: 1.5rem;
+        padding-left: 0.75rem;
+      }
+
+      .step-section {
+        padding: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .step-title {
+        font-size: 1.2rem;
+      }
+
+      .highlight-box, .example-box, .experience-box {
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+
+      .phase-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .phase-card {
+        padding: 1rem;
+      }
+
+      .takeaway-box {
+        padding: 1.5rem;
+      }
+
+      .outreach-quote {
+        padding: 0.75rem 1rem;
+        font-size: 0.95rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .article-content {
+        padding: 0 0.5rem;
+      }
+
+      .section-title {
+        font-size: 1.3rem;
+        padding-left: 0.5rem;
+      }
+
+      .lead-paragraph {
+        font-size: 1rem;
+      }
+
+      .step-section, .highlight-box, .example-box, .experience-box {
+        padding: 0.75rem;
+      }
+
+      .takeaway-box {
+        padding: 1rem;
+      }
+    }
+
+    /* Dark mode adjustments */
+    @media (prefers-color-scheme: dark) {
+      .highlight-box {
+        background: rgba(var(--global-theme-color-rgb), 0.1);
+      }
+
+      .problem-outcomes {
+        background: rgba(220, 53, 69, 0.1);
+      }
+
+      .context-list, .benefits-list {
+        background: rgba(40, 167, 69, 0.1);
+      }
+
+      .example-box {
+        background: rgba(255, 193, 7, 0.1);
+      }
+
+      .experience-box {
+        background: rgba(13, 110, 253, 0.1);
+      }
+    }
+  </style>
+
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+
+
+
+  </body>
+</html> 
