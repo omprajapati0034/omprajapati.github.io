@@ -177,11 +177,19 @@ nav_order: 3
 }
 
 .cv-performance {
-  background: #f8f9fa;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
   border-left: 4px solid var(--global-theme-color);
   padding: 1rem 1.5rem;
   margin: 1rem 0;
   border-radius: 0 6px 6px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.cv-performance:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
 }
 
 .cv-performance h4 {
