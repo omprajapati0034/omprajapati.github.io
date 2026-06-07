@@ -3,7 +3,7 @@ layout: page
 title: performance
 permalink: /performance/
 description: Sales metrics and key achievements across 5+ years of quota overattainment.
-nav: true
+nav: false
 nav_order: 2
 ---
 
