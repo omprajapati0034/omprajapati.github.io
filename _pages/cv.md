@@ -35,7 +35,7 @@ nav_order: 3
     </div>
     <div class="cv-company">Webflow | Agentic Web Marketing Platform | $75–200K ACV · 200 named accounts (250–2,500 employees)</div>
     <ul>
-      <li>Generated ~$650K in pipeline since February with zero inbound, through signal-led, AI-assisted outreach to CMOs and marketing leaders ($500K new-logo outbound, $150K expansion).</li>
+      <li>Generated ~\$650K in pipeline since February with zero inbound, through signal-led, AI-assisted outreach to CMOs and marketing leaders (\$500K new-logo outbound, \$150K expansion).</li>
       <li>Currently running 5 active opportunities worth $450K, multi-threading marketing, engineering, and partner-agency stakeholders through 4–5 month evaluations and migrations that relaunch the digital presence for their biggest go-to-market moments.</li>
       <li>Hit 100% of Q4 quota in my first full quarter, closing full-platform deals.</li>
       <li>Build a target account plan and clear POV for each account, then break in top-down with my SDR, challenging the prospect's status quo to earn executive conversations.</li>
