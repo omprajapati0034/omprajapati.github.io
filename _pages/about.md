@@ -35,11 +35,13 @@ img[src*="prof_pic"] {
 }
 </style>
 
-For the past year I've sold AEO, one of the fastest-moving categories in marketing, opening exec-level conversations with CMOs about how their brands surface in AI search. Before that, five straight years of quota attainment selling AI/ML at Promotus, where I built the outbound engine from the ground up and opened two net-new verticals that now run dedicated teams.
+I sell AI where it's reshaping how a function works, and I've spent seven years doing it across martech and finance. For the past year at Webflow, I've opened exec-level conversations with CMOs about the agentic web and how brands surface as AI changes search and discovery. Before that, five straight years of quota attainment selling AI martech at Promotus, where I built the outbound engine from the ground up and opened a net-new e-commerce vertical that then ran its own team. In between, I sold finance automation at Tipalti into multi-entity finance teams.
 
-I'm an operator who builds systems around himself. I self-source nearly all of my pipeline through a research-driven, signal-led, AI-assisted motion I built myself, and I advise early-stage AI startups on standing up go-to-market. AI isn't a buzzword in how I work; it's how I research, prospect, and sell at leverage.
+I'm an operator who builds systems around himself. I self-source nearly all of my pipeline through a research-driven, signal-led motion I built myself, and I advise early-stage AI startups on standing up go-to-market. I lean on AI across the whole cycle, to research accounts deeply, personalize at scale, and sell with leverage.
 
-I'm looking for my next seat at an AI company building at the edge of the category, in London. If that's you, let's talk.
+I'm based in Vancouver. Outside work, you'll find me on a snowboard or building something, lately OpenClaw, a self-hosted AI setup I put together, and whatever's on my 3D printer. The instinct to build systems doesn't clock out at the end of the day.
+
+What pulls me most is AI at its most disruptive, the categories where it's rewriting how the work gets done rather than bolting onto it. I'm looking for my next seat at an AI company building there, in London. If that's you, let's talk.
 
 ---
 
